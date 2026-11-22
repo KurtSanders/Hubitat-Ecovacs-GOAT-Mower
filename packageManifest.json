@@ -1,12 +1,12 @@
 {
   "packageName": "Ecovacs GOAT A3000 Mower (Home Assistant WebSocket)",
   "author": "Kurt Sanders",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "minimumHEVersion": "2.3.5",
   "dateReleased": "2026-11-22",
   "documentationLink": "https://github.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/blob/main/README.md",
   "communityLink": "https://community.hubitat.com/",
-  "releaseNotes": "v1.0.0: Initial release with real-time Home Assistant WebSocket (subscribe_entities), auto-reconnect, core mower controls, extended diagnostic/maintenance sensors (error, rain, blade life, area mowed, duration, RSSI, last job), and 3-mode per-zone mowing.",
+  "releaseNotes": "v1.1.1: Added automatic Home Assistant device entity discovery (/api/template), Imperial/Metric unit conversion preference, integer areaMowed and Xh Ym mowingDuration formatting, and thread-safe WebSocket ID handling.",
   "drivers": [
     {
       "id": "a3f8c2d1-6b4e-4e9a-9c71-2d8f5a1e3000",
