@@ -49,18 +49,26 @@ flowchart TB
 
 ### Option A: Hubitat Package Manager (Recommended)
 1. Open **Hubitat Package Manager (HPM)** in Hubitat.
-2. Select **Install → From a URL**.
-3. Paste the manifest URL:
-   ```text
-   [https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/packageManifest.json](https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/packageManifest.json)
-   ```
-4. Follow the prompts to complete installation.
+
+2. Select **Install** and choose **One** of the following:
+    a. **Search by Keywords:** 
+
+    - *Ecovacs GOAT A3000 Mower*
+      b. **From a URL**.
+
+    - Paste the manifest URL:
+
+    ```text
+    https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/packageManifest.json
+    ```
+
+3. Follow the prompts to complete installation.
 
 ### Option B: Manual Installation
 1. In Hubitat, go to **Drivers Code → + New Driver**.
 2. Click **Import**, paste the raw Groovy URL below, and click **Import** → **Save**:
    ```text
-   [https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/drivers/Ecovacs_GOAT_A3000_Mower_WS.groovy](https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/drivers/Ecovacs_GOAT_A3000_Mower_WS.groovy)
+   https://raw.githubusercontent.com/kurtsanders/Hubitat-Ecovacs-GOAT-Mower/main/drivers/Ecovacs_GOAT_A3000_Mower_WS.groovy
    ```
 
 ---
